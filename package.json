@@ -1,0 +1,31 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fahmisutansyah/rest-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fahmisutansyah/rest-api/issues"
+  },
+  "homepage": "https://github.com/Fahmisutansyah/rest-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.10.0",
+    "sequelize": "^5.7.6"
+  },
+  "devDependencies": {
+    "dotenv": "^7.0.0"
+  }
+}
